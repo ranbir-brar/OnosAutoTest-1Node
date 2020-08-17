@@ -11,6 +11,7 @@ For more information about ONOS System Testing please read: [ONOS Sytem Testing 
 ### On the Compute Canada Cloud
 
 1. First check if you have ssh key in ~/.ssh, if you don't have one, please generate it by using the following command:
+
 `ssh-keygen -t rsa -m PEM`
 
 **Note that don't setup the password here**
@@ -27,6 +28,7 @@ This folder contains 4 files:
 
 The main file we need to run is **onosAuTest1node.py*
 We can run it by inputting the following command:
+
 `python onosAuTest1Node.py`
 
 Then you input 3 ip addresses (the public network up for the manage machine and the intranet ip for the other machines) and the location of the public key and private key. This file can be used to run any of the 1 node onos system tests. 
