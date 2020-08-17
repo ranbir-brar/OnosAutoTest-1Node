@@ -7,7 +7,7 @@ For more information about ONOS System Testing please read: [ONOS Sytem Testing 
 
 *You don't need to install any softwares or create users on any VMs because the script will do all that automatically. You only need to create the VMs manually. 
 
-##Setup test script to run 1 node tests
+## Setup test script to run 1 node tests
 ### On the Compute Canada Cloud
 
 1. First check if you have ssh key in ~/.ssh, if you don't have one, please generate it by using the following command:
