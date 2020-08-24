@@ -45,7 +45,7 @@ subprocess.call("cp {} {}/id_rsa.pub".format(publickeyLocation,projectPath), she
 privatekeyLocation = projectPath+"/id_rsa"
 publickeyLocation = projectPath+"/id_rsa.pub"
 
-subprocess.call("sudo chmod 600 .ssh/id_rsa", shell = True)
+subprocess.call("sudo chmod 600 {}".format(privatekeyLocation), shell = True)
 #connect to Manage Machine (ubuntu user)
 
 subprocess.call('ssh -i {} ubuntu@{}'.format(privatekeyLocation,manageMachineIP),shell = True)
